@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-sm navbar-light fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	<a href="Home.html" class="navbar-brand">DigitalLibrary</a>
+
+	<div class="collapse navbar-collapse" id="nav-content">
+		<div class="navbar-nav mr-auto">
+			<a href="Home.html" class="nav-item nav-link active">Home <span class="sr-only">(current)</span></a>
+			<div class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
+				<div class="dropdown-menu drpdwn" aria-labelledby="Preview">
+					<a href="CSE.html" class="dropdown-item drpitm">Computer Science Engineering</a>
+					<a href="CIVIL.html" class="dropdown-item drpitm">Civil Engineering</a>
+					<a href="EEE.html" class="dropdown-item drpitm">Electrical and Electronics Engineering</a>					
+					<a href="Mech.html" class="dropdown-item drpitm">Mechanical Engineering</a>
+				</div>
+			</div>
+			<a href="About Us.html" class="nav-item nav-link">About Us</a>
+			<a href="Contact Us.html" class="nav-item nav-link">Contact Us</a>
+			</div>
+			<form class="form-inline my-2 my-lg-0">		      
+    		<button class="btnn btn btn-primary my-sm-0"><a class="btnlnk" href="Sign Up.html"> Sign Up</a></button>		      	
+	    </form>			
+	</div>	
+	</nav>
+
+
+	<div class="container col-md-4">
+
+		<div class="frm col-md-12">
+			<form class="col-md-11">
+				<div class="form-group text-center"><h1>Member Login</h1></div>
+
+                    <hr>
+
+				<div class="form-group">
+					<label class="col-form-label">College Id.</label> 
+					<input type="email" class="form-control" placeholder="rollno.@bitraipur.ac.in" required>
+				</div>
+
+				<div class="form-group">
+					<label class="col-form-label">Password</label>
+					<input type="Password" class="form-control" placeholder="Password" required>
+				</div>
+				<div class="row">
+					<div class="form-group col-md-6">
+						<button type="submit" class="btn btn-primary btnn">Login</button>
+					</div>
+					<div class="form-group col-md-6">
+						<small class="text-muted">
+							<a class="regfrm" href="Sign Up.html">Click here for Sign Up</a>					
+						</small>
+					</div>
+				</div>				
+			</form>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

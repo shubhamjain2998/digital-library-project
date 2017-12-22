@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dropdown</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-sm navbar-light fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	    <a href="Home.html" class="navbar-brand">DigitalLibrary</a>
+
+	    <div class="collapse navbar-collapse" id="nav-content">
+		    <div class="navbar-nav mr-auto">
+			<a href="Home.html" class="nav-item nav-link">Home</a>
+			<div class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
+				<div class="dropdown-menu drpdwn" aria-labelledby="Preview">
+					<a href="CSE.html" class="dropdown-item drpitm">Computer Science Engineering</a>
+					<a href="CIVIL.html" class="dropdown-item drpitm">Civil Engineering</a>
+					<a href="EEE.html" class="dropdown-item drpitm">Electrical and Electronics Engineering</a>					
+					<a href="Mech.html" class="dropdown-item drpitm">Mechanical Engineering</a>
+				</div>
+			</div>
+			<a href="About Us.html" class="nav-item nav-link">About Us</a>
+			<a href="#" class="nav-item nav-link active">Contact Us <span class="sr-only">(current)</span></a>	
+        </div>
+            <form class="form-inline my-2 my-lg-0">           
+                <button class="btnn btn btn-primary my-sm-0"><a class="btnlnk" href="Sign Up.html"> Sign Up</a></button>                
+                <button class="btnn btn btn-primary my-sm-0"><a class="btnlnk" href="Login.html"> Login</a></button>
+            </form>		
+	   </div>	
+	</nav>
+
+
+	<div class="container mt-8">
+        
+        <form>
+
+            <div class="text-center"><h2>Contact Us</h2></div>
+    
+            <hr>
+            
+            <div class="row">
+                <div class="col-md-6">                  
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="name" placeholder="Name" required="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input class="form-control" type="email" name="email" placeholder="rollno.@bitraipur.ac.in" required="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input class="form-control" type="tel" name="mbnum" placeholder="Mobile No." required="">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="sub" placeholder="Subject" required="">
+                    </div>
+                </div>
+            
+                <div class="col-md-6">              
+                    <div class="form-group">
+                        <textarea class="form-control" name="msg" placeholder="Type Your Message/Feedback here..." maxlength="250" rows="9" required=""></textarea>
+                    </div>
+                </div>
+            </div>
+            
+            <button type="submit" class="btn btn-md btn-primary btnn">Submit</button>
+        </form>
+
+        <div class="row mt-5">
+            <div class="col-md-4 mb-5">
+                <h5>Contact</h5>
+                <hr>
+                +91 8109832393<br> 
+                +91 9669611093<br>
+                +91 7000447084<br>
+                +91 9993822423<br>
+            </div>
+            
+            <div class="col-md-4 mb-5">
+                <h5>E-mail</h5>
+                <hr>
+
+                <i >309302216039@bitraipur.ac.in</i><br>
+                <i >309302216043@bitraipur.ac.in</i><br>
+                <i>309302216053@bitraipur.ac.in</i><br>
+                <i>309302216063@bitraipur.ac.in</i><br>
+                
+            </div>
+            
+            <div class="col-md-4 mb-5">
+                <h5>Address</h5>
+                <hr>
+                Kendri, New Raipur,National Highway (NH 30), Near Abhanpur, <br>Raipur (C. G.). <br>PIN: 493661                
+            </div>           
+        </div>
+     </div>
+
+
+	
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

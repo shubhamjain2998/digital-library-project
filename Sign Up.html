@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-sm navbar-light fixed-top">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	<a href="Home.html" class="navbar-brand">DigitalLibrary</a>
+
+	<div class="collapse navbar-collapse" id="nav-content">
+		<div class="navbar-nav mr-auto">
+			<a href="Home.html" class="nav-item nav-link">Home <span class="sr-only">(current)</span></a>
+			<div class="nav-item dropdown">
+				<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="Preview" role="button" aria-haspopup="true" aria-expanded="false">Categories</a>
+				<div class="dropdown-menu drpdwn" aria-labelledby="Preview">
+					<a href="CSE.html" class="dropdown-item drpitm">Computer Science Engineering</a>
+					<a href="CIVIL.html" class="dropdown-item drpitm">Civil Engineering</a>
+					<a href="EEE.html" class="dropdown-item drpitm">Electrical and Electronics Engineering</a>					
+					<a href="Mech.html" class="dropdown-item drpitm">Mechanical Engineering</a>
+				</div>
+			</div>
+			<a href="About Us.html" class="nav-item nav-link">About Us</a>
+			<a href="Contact Us.html" class="nav-item nav-link">Contact Us</a>
+		</div>
+		<form class="form-inline my-2 my-lg-0">		      
+	      	<button class="btnn btn btn-primary my-sm-0"><a class="btnlnk" href="Login.html"> Login</a></button>
+	    </form>			
+	</div>	
+	</nav>
+
+	<div class="container mt-8">
+
+		<div>
+			<h1>Library Sign Up</h1>
+		</div>
+			<hr>
+			<form>
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label class="col-form-label">College Id.</label>
+      					<input type="email" class="form-control" placeholder="rollno.@bitraipur.ac.in" required>
+      				</div>
+      				
+      				<div class="form-group col-md-6">
+				      <label class="col-form-label">Password</label>
+				      <input type="password" class="form-control" placeholder="Password" required>
+				    </div>
+				</div>
+
+				<div class="form-group">
+				   <label class="col-form-label">Address</label>
+				   <input type="text" class="form-control" placeholder="Full Address" required>
+				</div>
+
+				<div class="form-row">
+					<div class="form-group col-md-6">
+						<label class="col-form-label">Contact No.</label>
+						<input type="tel" class="form-control" placeholder="Contact No." required>					
+					</div>
+
+					<div class="form-group col-md-6">
+						<label class="col-form-label">Parents Contact No.</label>
+						<input type="tel" class="form-control" placeholder="Parents Contact No." required>
+					</div>
+				</div>
+
+				<div class="form-row">
+				    <div class="form-group col-md-6">
+				      <label class="col-form-label">City</label>
+				      <input type="text" class="form-control" placeholder="City" required>
+				    </div>
+
+				    <div class="form-group col-md-4">
+				      <label class="col-form-label">State</label>
+				      <select class="form-control" required>
+				      	<option>Other</option>
+				      	<option>Bihar</option>
+				      	<option>Chhattisgarh</option>
+				      	<option>Madhya Pradesh</option>
+				      	<option>Odisha</option>
+
+				      </select>
+				    </div>
+
+				    <div class="form-group col-md-2">
+				      <label class="col-form-label">Pincode</label>
+				      <input type="text" maxlength="7" class="form-control" placeholder="Pincode" required>
+				    </div>
+				</div>
+
+				<div class="form-group">
+    				<div class="form-check">
+      					<label class="form-check-label">
+        				<input class="form-check-input" type="checkbox" required> I accept the <u>Terms &amp; Conditions</u>
+      					</label>
+    				</div>
+  				</div>
+
+				    <button type="submit" class="btn btn-primary btnn">Sign up</button>		
+			</form>	
+			
+			
+		</div>
+	</div>
+	
+
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/popper.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+        body{
+			background-color: #5b442c;
+			color: #fcf0db;
+		}
+
+        hr{
+            border-color: #fcf0db;
+        }
+
+        nav{
+            background-color: #e8ac7a;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+           color: white;
+        }
+        
+        .jumbotron{
+            background-image: url(images/jumbo.jpg);
+            margin: 0;
+        } 
+       
+
+		.btnn{
+            background-color: #e8ac7a;
+            border-color: #e8ac7a;
+            color: #5b442c;
+        }
+
+        .btnn:hover{
+            background-color: #e8ac7a;
+            border-color: none;
+            box-shadow: 0 0 0 3px #e8ac7a;
+        }
+
+        .btnn:active{
+            box-shadow: 0 0 0 2px #e8ac7a;
+            border-color: #e8ac7a;
+            background-color: #5b442c;
+        }
+
+        .btnn:focus{
+            box-shadow: 0 0 0 2px #e8ac7a;
+            border-color: #e8ac7a;
+        }
+
+        .frm{
+            border-radius: 10px;
+            border-color: black;
+            box-shadow:  0 0 6px 3px black, 0 0 6px 3px black;          
+            margin-top: 160px;               
+        }
+
+
+        .drpdwn{
+            background-color: #5b442c;
+            color: #fcf0db;
+        }
+
+        .drpitm{
+            color: #fcf0db;
+        }
+
+        .drpitm:hover{
+            background-color: #e8ac7a;
+            color: #fcf0db;
+        }
+
+        .btnlnk{
+            text-decoration: none;
+            color: #5b442c;
+        }
+
+        .btnlnk:hover{
+            text-decoration: none;
+            color: white;
+        }
+
+        .btnlnk:active{
+            text-decoration: none;
+            color: #e8ac7a;
+        }
+
+        .mt-8{
+        	margin-top: 4rem !important;
+        }
